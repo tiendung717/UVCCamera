@@ -27,6 +27,7 @@
 NDK_TOOLCHAIN_VERSION := 4.9
 
 APP_PLATFORM := android-14
-APP_ABI := armeabi armeabi-v7a x86 mips
+APP_ABI :=  armeabi-v7a
+#x86 mips armeabi
 #APP_OPTIM := debug
 APP_OPTIM := release
