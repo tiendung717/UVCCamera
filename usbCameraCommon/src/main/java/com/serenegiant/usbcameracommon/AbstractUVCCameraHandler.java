@@ -64,7 +64,7 @@ import java.nio.ByteOrder;
 import java.util.Set;
 import java.util.concurrent.CopyOnWriteArraySet;
 
-abstract class AbstractUVCCameraHandler extends Handler {
+public abstract class AbstractUVCCameraHandler extends Handler {
     private static final boolean DEBUG = true;    // TODO set false on release
     private static final String TAG = "AbsUVCCameraHandler";
 
